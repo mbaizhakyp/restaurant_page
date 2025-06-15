@@ -16,7 +16,7 @@
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* * {\n    border: 1px solid red;\n} */\n:root {\n    --page-width: 50%;\n}\nhtml,\nbody {\n    margin: 0; /* remove default margin */\n}\n\n#content {\n    width: var(--page-width);\n    height: 100%;\n    margin: auto;\n    background-color: lightblue;\n    padding-top: 1px;\n}\nheader {\n    width: var(--page-width);\n    margin: auto;\n    background-color: lightblue;\n}\nnav {\n    width: 100%;\n    height: 100%;\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    height: 100px;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant_page/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* * {\n    border: 1px solid red;\n} */\n:root {\n    --page-width: 50%;\n}\nhtml,\nbody {\n    margin: 0; /* remove default margin */\n}\n\n#content {\n    width: var(--page-width);\n    height: 100%;\n    margin: auto;\n    background-color: lightblue;\n    padding-top: 1px;\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    /* align-items: center; */\n    padding-left: 2em;\n    border-radius: 2em;\n    border: 2px, solid, pink;\n}\nheader {\n    width: var(--page-width);\n    margin: auto;\n    background-color: lightblue;\n}\nnav {\n    width: 100%;\n    height: 100%;\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    height: 100px;\n}\n\n.menu-item {\n    display: flex;\n    align-items: center;\n    gap: 1rem;\n    background-color: #fff8f0;\n    border-radius: 12px;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n    padding: 1rem;\n    margin: 1rem 0;\n    max-width: 600px;\n}\n\n.menu-img {\n    width: 100px;\n    height: 100px;\n    object-fit: cover;\n    border-radius: 8px;\n}\n\n.menu-text {\n    display: flex;\n    flex-direction: column;\n}\n\n.menu-text h2 {\n    margin: 0;\n    font-size: 1.2rem;\n    color: #333;\n}\n\n.menu-text p {\n    margin: 0.5rem 0;\n    color: #666;\n    font-size: 0.95rem;\n}\n\n.price {\n    font-weight: bold;\n    color: #d2691e;\n}\n\n.about-container {\n    background-color: #fffdf9;\n    padding: 1.5rem;\n    margin-top: 1rem;\n    border-radius: 12px;\n    max-width: 700px;\n    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);\n    line-height: 1.6;\n    color: #444;\n    font-size: 1rem;\n    margin: 4em;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant_page/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   aboutLoad: () => (/* binding */ aboutLoad)\n/* harmony export */ });\nfunction aboutLoad() {\n    const h1 = document.createElement('h1');\n    h1.textContent = 'About';\n    const content = document.querySelector('#content');\n    content.appendChild(h1);\n}\n\n\n//# sourceURL=webpack://restaurant_page/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   aboutLoad: () => (/* binding */ aboutLoad)\n/* harmony export */ });\nfunction aboutLoad() {\n    const content = document.querySelector('#content');\n    content.innerHTML = ''; // Clear previous content\n\n    const h1 = document.createElement('h1');\n    h1.textContent = 'About';\n\n    const aboutContainer = document.createElement('div');\n    aboutContainer.classList.add('about-container');\n\n    aboutContainer.innerHTML = `\n    <p>\n      Welcome to <strong>La Crêperie</strong>, where every crepe is made with love, tradition, and a dash of creativity.\n      Nestled in the heart of the city, we bring a taste of Paris to your plate—whether you’re craving a sweet indulgence\n      or a savory delight.\n    </p>\n    <p>\n      Our recipes are inspired by classic French cuisine, but we’re not afraid to experiment with modern flavors and\n      seasonal ingredients. From the fiery Alpine Crepe to the romantic Crepe Amour, there's something here for everyone.\n    </p>\n    <p>\n      Founded in 2025 by a pair of travel-loving foodies, La Crêperie is more than a restaurant—it's a cozy corner of France,\n      right around the corner. Bon appétit!\n    </p>\n  `;\n\n    content.appendChild(h1);\n    content.appendChild(aboutContainer);\n}\n\n\n//# sourceURL=webpack://restaurant_page/./src/about.js?");
 
 /***/ }),
 
@@ -120,6 +120,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/images/alpine-crepe.jpeg":
+/*!**************************************!*\
+  !*** ./src/images/alpine-crepe.jpeg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b1f769b6525eaf97bd23.jpeg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/alpine-crepe.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/crepe-amour.jpeg":
+/*!*************************************!*\
+  !*** ./src/images/crepe-amour.jpeg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0db389cd06df05b32853.jpeg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/crepe-amour.jpeg?");
+
+/***/ }),
+
 /***/ "./src/images/crepe-photo.jpeg":
 /*!*************************************!*\
   !*** ./src/images/crepe-photo.jpeg ***!
@@ -127,6 +147,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"fdd49299346e01b8afd0.jpeg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/crepe-photo.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/crepe-suzette.jpg":
+/*!**************************************!*\
+  !*** ./src/images/crepe-suzette.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"34684a02f3ac39817e32.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/crepe-suzette.jpg?");
 
 /***/ }),
 
@@ -156,7 +186,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menuLoad: () => (/* binding */ menuLoad)\n/* harmony export */ });\nfunction menuLoad() {\n    const h1 = document.createElement('h1');\n    h1.textContent = 'Menu';\n    const content = document.querySelector('#content');\n    content.appendChild(h1);\n}\n\n\n//# sourceURL=webpack://restaurant_page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menuLoad: () => (/* binding */ menuLoad)\n/* harmony export */ });\n/* harmony import */ var _images_crepe_suzette_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/crepe-suzette.jpg */ \"./src/images/crepe-suzette.jpg\");\n/* harmony import */ var _images_crepe_amour_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/crepe-amour.jpeg */ \"./src/images/crepe-amour.jpeg\");\n/* harmony import */ var _images_alpine_crepe_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/alpine-crepe.jpeg */ \"./src/images/alpine-crepe.jpeg\");\n\n\n\nfunction menuLoad() {\n    const h1 = document.createElement('h1');\n    h1.textContent = 'Menu';\n    const content = document.querySelector('#content');\n    content.appendChild(h1);\n\n    const menuItem1 = document.createElement('div');\n    menuItem1.classList.add('menu-item'); // optional styling class\n\n    menuItem1.innerHTML = `\n  <img src=\"${_images_crepe_suzette_jpg__WEBPACK_IMPORTED_MODULE_0__}\" alt=\"Crepe Suzette\" class=\"menu-img\">\n  <div class=\"menu-text\">\n    <h2>Crepe Suzette</h2>\n    <p>Delicious French crepe with orange sauce and Grand Marnier.</p>\n    <span class=\"price\">$7.50</span>\n  </div>\n`;\n    document.getElementById('content').appendChild(menuItem1);\n\n    const menuItem2 = document.createElement('div');\n    menuItem2.classList.add('menu-item'); // optional styling class\n\n    menuItem2.innerHTML = `\n  <img src=\"${_images_crepe_amour_jpeg__WEBPACK_IMPORTED_MODULE_1__}\" alt=\"Crepe Amour\" class=\"menu-img\">\n  <div class=\"menu-text\">\n    <h2>Crepe Amour</h2>\n    <p>Strawberries, whipped mascarpone, and dark chocolate in a vanilla crepe—topped with rose petals.</p>\n    <span class=\"price\">$8.25</span>\n  </div>\n`;\n    document.getElementById('content').appendChild(menuItem2);\n\n    const menuItem3 = document.createElement('div');\n    menuItem3.classList.add('menu-item'); // optional styling class\n\n    menuItem3.innerHTML = `\n  <img src=\"${_images_alpine_crepe_jpeg__WEBPACK_IMPORTED_MODULE_2__}\" alt=\"Alpine Crepe\" class=\"menu-img\">\n  <div class=\"menu-text\">\n    <h2>Alpine Crepe</h2>\n    <p>A warm buckwheat crepe filled with melted raclette cheese, caramelized onions, rosemary potatoes, and smoked ham—straight from the French Alps.</p>\n    <span class=\"price\">$9.00</span>\n  </div>\n`;\n    document.getElementById('content').appendChild(menuItem3);\n}\n\n\n//# sourceURL=webpack://restaurant_page/./src/menu.js?");
 
 /***/ }),
 
